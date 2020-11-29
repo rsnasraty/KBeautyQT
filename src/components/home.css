@@ -23,8 +23,9 @@
 .home_header
 {
     font-size: larger;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-weight: 300;
+    font-display: auto;
 }
 
