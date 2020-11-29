@@ -4,7 +4,7 @@
   }
   
   .box{
-    flex: 1 0 calc(50% - 10px);
+    flex: 1 0 calc(25% - 10px);
     margin: 5px;
     background: #dbc8ec;
   }
@@ -18,5 +18,12 @@
   .box2{background: #AC71D0;}
   .box3{background: #38A899;}
   .box4{background: #A6D98C;}
-  .box5{background: #bada55;}
-  
+  .box5{background: #9fd6ec;}
+
+.home_header
+{
+    font-size: larger;
+    font-family: fantasy;
+    font-variant: small-caps;
+    font-weight: 300;
+}
