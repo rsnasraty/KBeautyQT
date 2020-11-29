@@ -8,7 +8,6 @@ import { FaHeart } from "react-icons/fa";
 function Home() {
   return (
     <div className="home_header">
-      Welcome!
       <Navigation
         // you can use your own router's api to get pathname
         activeItemId="/management/members"
