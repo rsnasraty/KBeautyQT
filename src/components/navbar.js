@@ -20,8 +20,6 @@ export const Navbar = () => (
           {
             title: "Home",
             itemId: "/home",
-            // you can use your own custom Icon component as well
-            // icon is optional
             elemBefore: () => <FaHome />,
           },
           {
