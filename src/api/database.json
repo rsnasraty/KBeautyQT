@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Makoto Tachibana",
+      "username": "tachibanacoachie",
+      "email": "m.tachibana@free.com",
+      "skinTypeId": 3
+    },
+    {
+      "id": 2,
+      "name": "Haruka Nanase",
+      "username": "theoriginalwaterstan",
+      "email": "h.nanase@free.com",
+      "skinTypeId": 1
+    }
+  ],
+
+  "skinTypes": [
+    {
+      "id": 1,
+      "name": "dry"
+    },
+    {
+      "id": 2,
+      "name": "oily"
+    },
+    {
+      "id": 3,
+      "name": "combination"
+    }
+  ]
+}
