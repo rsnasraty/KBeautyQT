@@ -1,12 +1,15 @@
 import "./home.css";
 import React from "react";
+import { Route } from "react-router-dom"
 import { Navbar} from "./navbar"
+import { ApplicationViews } from "./ApplicationViews"
 
-function Home() {
-return (
+export const Home = () => (
+    <>
     <div className="home_header">
 
     <Navbar />
+    <ApplicationViews />
     <div className="home">
         <div className="box box1"></div>
         <div className="box box2"></div>
@@ -15,7 +18,6 @@ return (
         <div className="box box5"></div>
     </div>
     </div>
+    </>
 );
-}
 
-export default Home;
