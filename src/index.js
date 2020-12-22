@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from "react-router-dom"
 import './index.css';
-import Home from '../src/components/home'
+import Home from './pages/home.js'
 
 
 ReactDOM.render(
