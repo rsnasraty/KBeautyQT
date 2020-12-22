@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navigation } from "react-minimal-side-navigation";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
-import { FaHome } from "react-icons/fa";
+import { FaCat, FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { useHistory, useLocation } from "react-router-dom";
 
@@ -62,7 +62,7 @@ export const Navbar = () => {
               {
                 title: "Settings",
                 itemId: "/settings",
-                elemBefore: () => <Icon name="activity" />
+                elemBefore: () => <FaCat />
               }
             ]}
             onSelect={({ itemId }) => {
