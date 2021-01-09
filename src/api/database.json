@@ -29,5 +29,18 @@
       "id": 3,
       "name": "combination"
     }
+  ],
+  "products": [
+    {
+      "id": 1, 
+      "name": "Banila Co Cleansing Balm",
+      "type": "Cleanser",
+      "review": "The best cleanser to take off your makeup and leave your skin feeling soft"
+      "rating": "5 stars" 
+
+    }
   ]
+
+
+
 }
