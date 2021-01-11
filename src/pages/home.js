@@ -1,11 +1,10 @@
 import "./home.css";
 import React from "react";
-import { Navbar} from "./navbar"
+import { Navbar} from "../components/navbar"
 
-function Home() {
-return (
+export const Home = () => (
+    <>
     <div className="home_header">
-
     <Navbar />
     <div className="home">
         <div className="box box1"></div>
@@ -15,7 +14,6 @@ return (
         <div className="box box5"></div>
     </div>
     </div>
+    </>
 );
-}
 
-export default Home;
