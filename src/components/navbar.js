@@ -3,6 +3,7 @@ import { Navigation } from "react-minimal-side-navigation";
 import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import { FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { FaShoppingBag } from "react-icons/fa";
 
 
 export const Navbar = () => (
@@ -23,6 +24,11 @@ export const Navbar = () => (
             title: "Favorites",
             itemId: "/favorites",
             elemBefore: () => <FaHeart />,
+          },
+          {
+            title: "Products",
+            itemId: "/products",
+            elemBefore: () => <FaShoppingBag />,
           },
         ]}
       />

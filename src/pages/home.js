@@ -8,10 +8,10 @@ export const Home = () => (
     <div className="home_header">
     <div className="home">
         <div className="box box1"></div>
-        <div className="box box2"></div>
-        <div className="box box3"></div>
-        <div className="box box4"></div>
-        <div className="box box5"></div>
+        <div className="box wishlist"></div>
+        <div className="box reviews"></div>
+        <div className="box inventory"></div>
+        <div className="box routine"></div>
     </div>
     </div>
     </>
