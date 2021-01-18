@@ -38,6 +38,11 @@
       "review": "The best cleanser to take off your makeup and leave your skin feeling soft",
       "rating": "5 stars" 
     }
+  ],
+  "favorites": [
+    {
+      "products_id": 1
+    }
   ]
 
 

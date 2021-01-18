@@ -4,7 +4,7 @@ import "react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css";
 import { FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
-
+import "./navbar.css"
 
 export const Navbar = () => (
 

@@ -4,7 +4,7 @@ import { Navbar} from "../components/navbar"
 
 export const Home = () => (
     <>
-     <Navbar />
+    <Navbar />
     <div className="home_header">
     <div className="home">
         <div className="box box1"></div>
