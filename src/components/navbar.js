@@ -5,14 +5,23 @@ import { FaHome } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaShoppingBag } from "react-icons/fa";
 import "./navbar.css"
+import {Route} from "react-router-dom"
+import {Home} from "../pages/home"
+import { useHistory } from "react-router-dom";
 
 export const Navbar = () => (
 
+  let history = useHistory();
 
+  function handleClick() {
+    history.push("/home");
+  }
 
 <Navigation
-        activeItemId="/management/members"
-        onSelect={({ itemId }) => { 
+        activeItemId="../pages/home.js"
+        onSelect={({ itemId }) => { history.pushState(Home)>
+          <Home />
+        </Route>
         }}
         items={[
           {
